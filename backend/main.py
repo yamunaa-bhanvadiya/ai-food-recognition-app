@@ -4,7 +4,10 @@ from pydantic import BaseModel
 from typing import Optional
 from PIL import Image
 from io import BytesIO
+import sys
+from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 from model_service import predict_food
 
 from nutrition_service import (

@@ -1,0 +1,72 @@
+# =========================================
+# Python
+# =========================================
+
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# =========================================
+# TensorFlow / ML
+# =========================================
+
+# Ignore temporary/training model formats
+*.h5
+*.ckpt
+*.pb
+
+# Ignore local model/checkpoint folders
+checkpoints/
+
+# =========================================
+# Node / React
+# =========================================
+
+node_modules/
+dist/
+build/
+
+# Vite
+.vite/
+
+# Frontend environment files
+frontend/.env
+frontend/.env.local
+
+# =========================================
+# OS
+# =========================================
+
+.DS_Store
+Thumbs.db
+
+# =========================================
+# IDE
+# =========================================
+
+.vscode/
+.idea/
+
+# =========================================
+# Temporary files
+# =========================================
+
+*.tmp
+*.temp
+*.bak
